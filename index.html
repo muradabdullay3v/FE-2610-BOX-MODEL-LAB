@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="form_title">
+        <h2>Information Card <i class="fa-solid fa-user"></i></h2>
+      </div>
+      <div class="form_input">
+        <input type="text" placeholder="Name" />
+      </div>
+      <div class="form_input">
+        <input type="text" placeholder="Surname" />
+      </div>
+      <div class="form_input">
+        <input type="email" placeholder="Email" />
+      </div>
+      <div class="form_input">
+        <input type="date" placeholder="Email" />
+      </div>
+      <div class="form_input">
+        <input type="number" placeholder="Phone" />
+      </div>
+      <div class="form_gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+      </div>
+      <div class="form_input">
+        <select name="nationality">
+          <option selected disabled>Select Country</option>
+          <option value="az">Azerbaijan</option>
+          <option value="ru">Russian</option>
+        </select>
+      </div>
+      <div class="form_button">
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  margin: 50px auto;
+  width: max-content;
+  padding: 20px 25px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+}
+
+form:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.form_input input,
+select {
+  width: 100%;
+  font-family: inherit;
+  border: none;
+  background-color: #eee;
+  border-radius: 7px;
+  padding: 0px 7px;
+  height: 30px;
+  outline: none;
+}
+
+.form_input:hover input,
+select {
+  background-color: #b0afaf;
+}
+
+input::placeholder{
+    color: red;
+}
+
+.form_button {
+  text-align: center;
+}
+
+.form_button button {
+  background-color: chocolate;
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  font-family: inherit;
+  border-radius: 7px;
+}
+
+.form_button button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.form_title {
+  color: chocolate;
+}
+
+select{
+    color: red;
+}
+
+::selection{
+    background-color: pink;
+}
